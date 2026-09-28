@@ -1,0 +1,4 @@
+[project]
+name = "style-engine-runtime"
+version = "1.0.0"
+description = "Runtime configuration hooks for the style engine"
